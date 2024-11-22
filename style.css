@@ -3,12 +3,23 @@ body {
     background-color: #f8f8f8;
     margin: 20px;
   }
-  
-  .table-container {
-    width: 80%;
-    margin: 0 auto;
+
+  main {
+    margin: 0 120px 0 120px;
+  }
+
+  .title {
+    text-align: center;
   }
   
+  .table-container {
+    width: 70%;
+  }
+  
+  .img-table {
+    padding-right: 20px;
+  }
+
   .row {
     display: flex;
     align-items: center;
@@ -40,4 +51,25 @@ body {
   
   .pdf-link:hover {
     text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.img {
+    padding-right: 20px;
+}
+
+.lower {
+    list-style: none;
+  }
+  
+  .li-lower {
+    padding-bottom: 20px;
   }
